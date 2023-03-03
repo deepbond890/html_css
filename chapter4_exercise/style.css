@@ -1,0 +1,49 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 550px; /* 高さ120px */
+}
+
+.header-top {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 840px;
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.main-center {
+  width: 500px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ300px */
+  background-color: limegreen; /* 背景色orange */
+}
+
+.main-side {
+  width: 230px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ300px */
+  background-color: palegreen; /* 背景色orange */
+}
+
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 100px; /* 高さ120px */
+  background-color: blue; /* 背景色blue */
+}
